@@ -3,6 +3,10 @@ namespace Wallet.Api.ModelTemplate;
 public class WalletTaskModel
 {
     /// <summary>
+    /// 收入or支出
+    /// </summary>
+    public string Type { get; set; }
+    /// <summary>
     /// 金额
     /// </summary>
     public string Amount { get; set; }
